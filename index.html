@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portafolio de MINUCRACK</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    background: #121212;
+    color: #eee;
+  }
+  header {
+    background: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: #f39c12;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .about, .skills, .projects, .contact {
+    margin-bottom: 50px;
+  }
+  h2 {
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills li {
+    background: #333;
+    margin: 5px 10px 5px 0;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+  .projects .project {
+    background: #222;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .project h3 {
+    margin-top: 0;
+  }
+  .project p {
+    margin-bottom: 10px;
+  }
+  .project a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  .project a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+    color: #aaa;
+  }
+  /* Responsive */
+  @media(max-width:600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+    .skills ul {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MINUCRACK</h1>
+  <nav>
+    <a href="#about">Sobre mí</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+</header>
+
+<section id="about" class="about">
+  <h2>Sobre mí</h2>
+  <p>Soy un desarrollador apasionado por crear soluciones innovadoras, especializado en desarrollo web y tecnología. Me encanta aprender y compartir mis conocimientos.</p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Habilidades</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Node.js</li>
+    <li>Git & GitHub</li>
+    <li>Python</li>
+  </ul>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Proyectos</h2>
+  <div class="project">
+    <h3>BioInge - Plataforma de Ingeniería Biomédica</h3>
+    <p>Una web colaborativa para compartir apuntes y recursos para estudiantes de ingeniería biomédica.</p>
+    <a href="https://github.com/MINUCRACK/mtm-web" target="_blank">Ver repositorio</a>
+  </div>
+  <div class="project">
+    <h3>Proyecto Ejemplo 2</h3>
+    <p>Descripción breve del proyecto número 2.</p>
+    <a href="#" target="_blank">Ver proyecto</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contacto</h2>
+  <p>¡Conectemos! Puedes escribirme a: <a href="mailto:tu.email@example.com">tu.email@example.com</a></p>
+</section>
+
+<footer>
+  <p>© 2025 MINUCRACK. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
